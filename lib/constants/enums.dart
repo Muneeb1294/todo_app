@@ -1,0 +1,1 @@
+enum HiveKeysEnum { language, token }

@@ -1,0 +1,44 @@
+name: note_app
+description: A simple todo app with Firebase CRUD operations
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.5
+  flutter_lints: ^2.0.1
+  provider: ^6.0.5
+  hive: ^2.2.3
+  sizer: ^2.0.15
+  get: ^4.6.5
+  flutter_spinkit: ^5.2.0
+  google_fonts: ^4.0.4
+  bot_toast: ^4.0.3
+  connectivity_plus: ^4.0.1
+  flutter_slidable: ^3.0.0
+  firebase_core: ^2.13.0
+  cloud_firestore: ^4.7.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+      - assets/images/
